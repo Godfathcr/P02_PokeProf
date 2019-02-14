@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\vilc2905\documents\github\p02_pokeprof\projets2_1\main.cpp(8): warning C4100: 'argv' : paramètre formel non référencé
+c:\users\vilc2905\documents\github\p02_pokeprof\projets2_1\main.cpp(8): warning C4100: 'argc' : paramètre formel non référencé
+  ProjetS2_1.vcxproj -> C:\Users\vilc2905\Documents\GitHub\P02_PokeProf\ProjetS2_1\debug\ProjetS2_1.exe
