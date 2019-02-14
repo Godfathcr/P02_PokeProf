@@ -1,4 +1,23 @@
-﻿  main.cpp
-c:\users\vilc2905\documents\github\p02_pokeprof\projets2_1\main.cpp(8): warning C4100: 'argv' : paramètre formel non référencé
-c:\users\vilc2905\documents\github\p02_pokeprof\projets2_1\main.cpp(8): warning C4100: 'argc' : paramètre formel non référencé
-  ProjetS2_1.vcxproj -> C:\Users\vilc2905\Documents\GitHub\P02_PokeProf\ProjetS2_1\debug\ProjetS2_1.exe
+﻿  Generate moc_predefs.h
+  MOC fenetrechoix.h
+  MOC fenetrecombat.h
+  MOC fenetreoption.h
+  MOC fenetreprincipal.h
+  fenetrechoix.cpp
+  fenetrecombat.cpp
+  fenetreoption.cpp
+  fenetreprincipal.cpp
+  main.cpp
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\main.cpp(7): warning C4100: 'argv': unreferenced formal parameter
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\main.cpp(7): warning C4100: 'argc': unreferenced formal parameter
+  prof.cpp
+  profexample1.cpp
+  sort.cpp
+  sortexample1.cpp
+  terrain.cpp
+  moc_fenetrechoix.cpp
+  moc_fenetrecombat.cpp
+  moc_fenetreoption.cpp
+  moc_fenetreprincipal.cpp
+  Generating Code...
+  ProjetS2_1.vcxproj -> C:\Users\felix\Documents\GitHub\P02_PokeProf\ProjetS2_1\debug\ProjetS2_1.exe

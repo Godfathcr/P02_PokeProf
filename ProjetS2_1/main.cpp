@@ -1,7 +1,6 @@
 #include "fenetreprincipal.h"
 #include "prof.h"
-
-#include <QApplication>
+//#include <QApplication>
 
 
 
