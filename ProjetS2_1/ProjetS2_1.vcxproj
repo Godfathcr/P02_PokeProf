@@ -147,6 +147,7 @@
     <ClCompile Include="prof.cpp" />
     <ClCompile Include="profexample1.cpp" />
     <ClCompile Include="sort.cpp" />
+    <ClCompile Include="sortDefense.cpp" />
     <ClCompile Include="sortexample1.cpp" />
     <ClCompile Include="terrain.cpp" />
   </ItemGroup>
@@ -195,6 +196,7 @@
     <ClInclude Include="prof.h" />
     <ClInclude Include="profexample1.h" />
     <ClInclude Include="sort.h" />
+    <ClInclude Include="sortDefense.h" />
     <ClInclude Include="sortexample1.h" />
     <ClInclude Include="terrain.h" />
   </ItemGroup>

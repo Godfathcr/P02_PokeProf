@@ -60,6 +60,9 @@
     <ClCompile Include="Combat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sortDefense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="fenetrechoix.h">
@@ -124,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Combat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sortDefense.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
