@@ -2,6 +2,7 @@
 #define FENETREOPTION_H
 
 #include <QWidget>
+#include <vector>
 
 class FenetreOption: public QWidget
 {
