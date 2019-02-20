@@ -9,8 +9,13 @@ class Prof
 private:
 	int vie;
 	string nom;
+	int vitesse;
 	int attaquePuissance;
 	int defense;
+	const int vitesseBase;
+	const int attaquePuissanceBase;
+	const int defenseBase;
+	const int vieBase;
 	int etatEffet;
 	string sprite;
 	Vecteur<Sort> sort;
@@ -27,11 +32,20 @@ public:
 	string setNom(string nomProf);
 	string getNom();
 
+	int setVitesse(int vitesse);
+	int getVitesse();
+
 	int getAttaquePuissance();
 	int setAttaquePuissance(int attaque);
 
-	int getDeense();
+	int getDefense();
 	int setDefense(int def);
+
+	int getDefenseBase();
+	int getVitesseBase();
+	int getAttaquePuissanceBase();
+	int getVieBase();
+
 
 	int getEtatEffet();
 	int setEtatEffet(int etat);

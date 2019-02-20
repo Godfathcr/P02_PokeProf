@@ -1,12 +1,11 @@
 #pragma once
 #include "Sort.h"
-class SortExample1 :
-	public Sort
+class SortExample1 :public Sort
 {
-private:
-
 public:
 	SortExample1();
 	~SortExample1();
+	virtual void activation(Prof &toi, Prof &ennemi);
+	
 };
 

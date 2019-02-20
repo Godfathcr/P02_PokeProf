@@ -44,6 +44,17 @@ string Prof::getNom()
 	return nom;
 }
 
+int Prof::setVitesse(int vitesse)
+{
+	this->vitesse = vitesse;
+	return 0;
+}
+
+int Prof::getVitesse()
+{
+	return vitesse;
+}
+
 int Prof::getAttaquePuissance()
 {
 	return attaquePuissance;
@@ -55,7 +66,7 @@ int Prof::setAttaquePuissance(int attaque)
 	return attaquePuissance;
 }
 
-int Prof::getDeense()
+int Prof::getDefense()
 {
 	return defense;
 }
@@ -64,6 +75,26 @@ int Prof::setDefense(int def)
 {
 	defense = def;
 	return defense;
+}
+
+int Prof::getDefenseBase()
+{
+	return defenseBase;
+}
+
+int Prof::getVitesseBase()
+{
+	return vitesseBase;
+}
+
+int Prof::getAttaquePuissanceBase()
+{
+	return attaquePuissanceBase;
+}
+
+int Prof::getVieBase()
+{
+	return vieBase;
 }
 
 int Prof::getEtatEffet()
