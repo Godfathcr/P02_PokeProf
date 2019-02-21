@@ -1,4 +1,5 @@
 #include "Prof.h"
+#include "Sort.h"
 #include <iostream>
 #include <string>
 
@@ -6,6 +7,7 @@ using namespace std;
 
 Prof::Prof()
 {
+	
 }
 
 
@@ -13,18 +15,30 @@ Prof::~Prof()
 {
 }
 
-void Prof::changerEtat(int etat)
+void Prof::changerEtat()
 {
+	etat = getEtat();
 }
 
-void Prof::attaquer(int sort, Prof ennemi)
+void Prof::attaquer(int m_sort, Prof ennemi)
 {
+	sort[m_sort].activation(*this, ennemi);
 
 }
 
 int Prof::setVie(int niveauVie)
 {
-	vie = niveauVie;
+
+	vie = vie + niveauVie;
+
+	if (vie > vieBase)
+	{
+		vie = vieBase;
+	}
+	else if (vie < 0)
+	{
+		vie = 0;
+	}
 	return vie;
 }
 
@@ -73,7 +87,15 @@ int Prof::getDefense()
 
 int Prof::setDefense(int def)
 {
-	defense = def;
+	defense = defense + def;
+	if (defense > defenseBase)
+	{
+		defense = defenseBase;
+	}
+	else if (defense < 0)
+	{
+		defense = 0;
+	}
 	return defense;
 }
 
@@ -97,19 +119,19 @@ int Prof::getVieBase()
 	return vieBase;
 }
 
-int Prof::getEtatEffet()
+int Prof::getEtat()
 {
-	return etatEffet;
+	return etat;
 }
 
-int Prof::setEtatEffet(int etat)
+int Prof::setEtat(int  m_etat)
 {
-	etatEffet = etat;
+	etat = m_etat;
 	if (etat == 1)return etat;
 	if (etat == 2)return etat;
 	if (etat == 3)return etat;
 	if (etat == 4)return etat;
-	return etatEffet;
+	return etat;
 }
 
 string Prof::getSprite()
@@ -117,11 +139,12 @@ string Prof::getSprite()
 	return sprite;
 }
 
-Vecteur<Sort> Prof::getSort()
+vector<Sort> Prof::getSort()
 {
-	return Vecteur<Sort>();
+	return vector<Sort>();
 }
 
+/*
 void Prof::afficher() {
 	cout << "----Test classe Prof----" << endl;
 	
@@ -134,6 +157,6 @@ void Prof::afficher() {
 	if (etatEffet == 2)cout << "Saoul" << endl;
 	if (etatEffet == 3)cout << "Etourdis" << endl;
 	if (etatEffet == 4)cout << "Hyperactif" << endl;
-	
+	*/
 	
 }

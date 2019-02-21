@@ -13,13 +13,7 @@ int main(int argc, char *argv[])
 
     return a.exec();*/
 
-	// Test Prof//
-	Prof prof;
-	prof.setNom("Claudette");
-	prof.setVie(80);
-	prof.setDefense(10);
-	prof.setEtatEffet(1);
-	prof.afficher();
+
 	
     return 0;
 

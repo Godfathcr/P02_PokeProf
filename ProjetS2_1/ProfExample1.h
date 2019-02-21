@@ -6,5 +6,9 @@ class ProfExample1 :
 public:
 	ProfExample1();
 	~ProfExample1();
+
+	void changerEtat();
+
+	void afficher();
 };
 

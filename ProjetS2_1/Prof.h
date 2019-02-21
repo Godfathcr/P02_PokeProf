@@ -1,5 +1,5 @@
 #include <iostream>
-#include "vecteur.h"
+#include <vector>
 #include "sort.h"
 
 
@@ -16,15 +16,15 @@ protected:
 	const int attaquePuissanceBase;
 	const int defenseBase;
 	const int vieBase;
-	int etatEffet;
+	int etat;
 	string sprite;
-	Vecteur<Sort> sort;
+	vector<Sort> sort;
 
 public:
 	Prof();
 	virtual ~Prof();
-	void changerEtat(int etat);
-	void attaquer(int sort, Prof ennemi);
+	void changerEtat();
+	void attaquer(int m_sort, Prof ennemi);
 
 	int setVie(int niveauVie);
 	int getVie();
@@ -47,13 +47,13 @@ public:
 	int getVieBase();
 
 
-	int getEtatEffet();
-	int setEtatEffet(int etat);
+	int getEtat();
+	int setEtat(int m_etat);
 
 	string getSprite();
 	
-	Vecteur<Sort> getSort();
+	vector<Sort> getSort();
 
-	void afficher();
+	//void afficher();
 };
 
