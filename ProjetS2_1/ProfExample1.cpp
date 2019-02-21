@@ -21,9 +21,7 @@ ProfExample1::~ProfExample1()
 {
 }
 
-void ProfExample1::changerEtat()
-{
-}
+
 
 
 void ProfExample1::afficher() {

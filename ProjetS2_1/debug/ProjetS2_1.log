@@ -1,23 +1,10 @@
 ﻿  Generate moc_predefs.h
   MOC fenetrechoix.h
+  Le chemin d'accès spécifié est introuvable.
   MOC fenetrecombat.h
+  Le chemin d'accès spécifié est introuvable.
   MOC fenetreoption.h
+  Le chemin d'accès spécifié est introuvable.
   MOC fenetreprincipal.h
-  fenetrechoix.cpp
-  fenetrecombat.cpp
-  fenetreoption.cpp
-  fenetreprincipal.cpp
-  main.cpp
-c:\users\felix\documents\github\p02_pokeprof\projets2_1\main.cpp(7): warning C4100: 'argv': unreferenced formal parameter
-c:\users\felix\documents\github\p02_pokeprof\projets2_1\main.cpp(7): warning C4100: 'argc': unreferenced formal parameter
-  prof.cpp
-  profexample1.cpp
-  sort.cpp
-  sortexample1.cpp
-  terrain.cpp
-  moc_fenetrechoix.cpp
-  moc_fenetrecombat.cpp
-  moc_fenetreoption.cpp
-  moc_fenetreprincipal.cpp
-  Generating Code...
-  ProjetS2_1.vcxproj -> C:\Users\felix\Documents\GitHub\P02_PokeProf\ProjetS2_1\debug\ProjetS2_1.exe
+  Le chemin d'accès spécifié est introuvable.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(209,5): error MSB6006: Arrêt de "cmd.exe" avec le code 3.
