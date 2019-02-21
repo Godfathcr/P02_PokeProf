@@ -1,5 +1,6 @@
 #pragma once
 #include "Prof.h"
+#include <string.h>
 class Sort
 {
 public:
@@ -10,5 +11,7 @@ public:
 	int getAccuracy();
 protected:
 	int accuracy;
+	string description;
+	string nom;
 };
 

@@ -4,6 +4,10 @@
 
 SortDefense::SortDefense()
 {
+	accuracy = 100;
+	nom = "Defendre";
+	description = "Augument la defense";
+
 }
 
 
