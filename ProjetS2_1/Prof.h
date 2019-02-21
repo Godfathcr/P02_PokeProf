@@ -1,9 +1,10 @@
+#pragma once
 #include <iostream>
 #include <vector>
 #include "sort.h"
 
 
-using namespace std;;
+using namespace std;
 class Prof
 {
 protected:
@@ -12,13 +13,13 @@ protected:
 	int vitesse;
 	int attaquePuissance;
 	int defense;
-	const int vitesseBase;
-	const int attaquePuissanceBase;
-	const int defenseBase;
-	const int vieBase;
+	 int vitesseBase;
+	 int attaquePuissanceBase;
+	 int defenseBase;
+	 int vieBase;
 	int etat;
 	string sprite;
-	vector<Sort> sort;
+	Sort* sort;
 
 public:
 	Prof();
@@ -52,7 +53,7 @@ public:
 
 	string getSprite();
 	
-	vector<Sort> getSort();
+	//Sort getSort();
 
 	//void afficher();
 };

@@ -1,23 +1,38 @@
-﻿  Generate moc_predefs.h
-  MOC fenetrechoix.h
-  MOC fenetrecombat.h
-  MOC fenetreoption.h
-  MOC fenetreprincipal.h
-  fenetrechoix.cpp
-  fenetrecombat.cpp
-  fenetreoption.cpp
-  fenetreprincipal.cpp
-  main.cpp
+﻿  main.cpp
 c:\users\felix\documents\github\p02_pokeprof\projets2_1\main.cpp(7): warning C4100: 'argv': unreferenced formal parameter
 c:\users\felix\documents\github\p02_pokeprof\projets2_1\main.cpp(7): warning C4100: 'argc': unreferenced formal parameter
   prof.cpp
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.cpp(25): error C2660: 'Sort::activation': function does not take 2 arguments
+  c:\users\felix\documents\github\p02_pokeprof\projets2_1\sort.h(8): note: see declaration of 'Sort::activation'
   profexample1.cpp
   sort.cpp
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2143: syntax error: missing ';' before '*'
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2238: unexpected token(s) preceding ';'
+  SortCaffee.cpp
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2143: syntax error: missing ';' before '*'
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2238: unexpected token(s) preceding ';'
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortcaffee.cpp(9): error C2440: '=': cannot convert from 'const char [13]' to 'char *'
+  c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortcaffee.cpp(9): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortcaffee.cpp(10): error C2440: '=': cannot convert from 'const char [69]' to 'char *'
+  c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortcaffee.cpp(10): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortcaffee.cpp(27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  sortDefense.cpp
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2143: syntax error: missing ';' before '*'
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2238: unexpected token(s) preceding ';'
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortdefense.cpp(9): error C2440: '=': cannot convert from 'const char [9]' to 'char *'
+  c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortdefense.cpp(9): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortdefense.cpp(10): error C2440: '=': cannot convert from 'const char [21]' to 'char *'
+  c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortdefense.cpp(10): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortdefense.cpp(21): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   sortexample1.cpp
-  terrain.cpp
-  moc_fenetrechoix.cpp
-  moc_fenetrecombat.cpp
-  moc_fenetreoption.cpp
-  moc_fenetreprincipal.cpp
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2143: syntax error: missing ';' before '*'
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\prof.h(22): error C2238: unexpected token(s) preceding ';'
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortexample1.cpp(11): error C2440: '=': cannot convert from 'const char [10]' to 'char *'
+  c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortexample1.cpp(11): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortexample1.cpp(12): error C2440: '=': cannot convert from 'const char [19]' to 'char *'
+  c:\users\felix\documents\github\p02_pokeprof\projets2_1\sortexample1.cpp(12): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
   Generating Code...
-  ProjetS2_1.vcxproj -> C:\Users\felix\Documents\GitHub\P02_PokeProf\ProjetS2_1\debug\ProjetS2_1.exe

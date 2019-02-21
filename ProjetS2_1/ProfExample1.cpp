@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-
+#pragma once
 
 ProfExample1::ProfExample1()
 {
@@ -12,7 +12,7 @@ ProfExample1::ProfExample1()
 	const int vitesseBase = 50;
 	const int attaquePuissanceBase = 30;
 	etat = 1;
-	nom = "Exemple"
+	nom = "Exemple";
 
 }
 

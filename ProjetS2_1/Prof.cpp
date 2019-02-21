@@ -139,10 +139,10 @@ string Prof::getSprite()
 	return sprite;
 }
 
-vector<Sort> Prof::getSort()
+/*vector<Sort> Prof::getSort()
 {
 	return vector<Sort>();
-}
+}*/
 
 /*
 void Prof::afficher() {
@@ -157,6 +157,6 @@ void Prof::afficher() {
 	if (etatEffet == 2)cout << "Saoul" << endl;
 	if (etatEffet == 3)cout << "Etourdis" << endl;
 	if (etatEffet == 4)cout << "Hyperactif" << endl;
-	*/
 	
-}
+	
+}*/
