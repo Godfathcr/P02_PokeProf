@@ -30,7 +30,11 @@ SOURCES += \
     sort.cpp \
     profexample1.cpp \
     sortexample1.cpp \
-    terrain.cpp
+    terrain.cpp \
+	 Combat.cpp \ 
+	sortDefense.cpp \
+	sortCaffee.cpp \
+	
 
 HEADERS += \
     fenetreprincipal.h \
@@ -41,6 +45,11 @@ HEADERS += \
     sort.h \
     profexample1.h \
     sortexample1.h \
-    terrain.h
+    terrain.h \
+	Combat.h \ 
+	sortDefense.h \
+	sortCaffee.h \
+	
+
 
 QT += widgets
