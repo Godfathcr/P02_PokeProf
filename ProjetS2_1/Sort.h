@@ -8,7 +8,7 @@ public:
 	virtual ~Sort();
 	void setAccuracy(int m_accuracy);
 	int getAccuracy();
-private:
+protected:
 	int accuracy;
 };
 

@@ -6,7 +6,7 @@
 using namespace std;;
 class Prof
 {
-private:
+protected:
 	int vie;
 	string nom;
 	int vitesse;
