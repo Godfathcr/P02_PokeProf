@@ -63,6 +63,9 @@
     <ClCompile Include="sortDefense.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SortCaffee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="fenetrechoix.h">
@@ -130,6 +133,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sortDefense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortCaffee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,7 @@
 #pragma once
 #include "Prof.h"
 #include <string.h>
+#include <string>
 class Sort
 {
 public:

@@ -7,7 +7,7 @@ using namespace std;
 
 SortExample1::SortExample1()
 {
-	accuracy = 100;
+	accuracy = 80;
 	nom = "Exemple 1";
 	description = "Dommage à l'ennemi";
 }
